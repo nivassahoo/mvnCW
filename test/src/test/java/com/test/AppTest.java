@@ -16,7 +16,7 @@ public class AppTest implements ISuiteListener
 	@Test
 	public void method() {
 		// TODO Auto-generated method stub
-		System.out.println("Inside AppTest Class of com.test");
+		System.out.println("Updated from Remote");
 		System.setProperty("webdriver.chrome.driver", "F:\\Career\\Chrome Driver\\chromedriver.exe");
 		  driver = new ChromeDriver();
 		  driver.get("https://www.google.co.in");
